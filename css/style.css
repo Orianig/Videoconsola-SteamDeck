@@ -1,0 +1,59 @@
+    html,
+    body {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .control-container {
+
+        border: 1.5px solid black;
+        border-radius: 50px 50px 90px 90px;
+        height: 380px;
+        width: 960px;
+
+    }
+
+    .abxy-container {
+        border: 1px solid #333333;
+        height: 80px;
+        position: relative;
+        width: 80px;
+    }
+
+    .abxy-button {
+        background-color: #ffffff;
+        border: 1px solid #333333;
+        border-radius: 50%;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+        height: 40px;
+        position: absolute;
+        width: 40px;
+    }
+
+    .abxy-button.up {
+        left: 50%;
+        margin-left: -20px;
+        margin-top: -20px;
+        top: 0;
+    }
+
+    .abxy-button.down {
+        bottom: 0;
+        left: 50%;
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+
+    .abxy-button.left {
+        left: 0;
+        margin-top: -20px;
+        margin-left: -20px;
+        top: 50%;
+    }
+
+    .abxy-button.right {
+        margin-top: -20px;
+        margin-right: -20px;
+        right: 0;
+        top: 50%;
+    }
