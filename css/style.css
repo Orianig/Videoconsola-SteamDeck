@@ -2,19 +2,54 @@
     body {
         font-size: 16px;
         margin: 0;
+        width: 1280px;
     }
 
+    /* BACKGROUND CONTAINER */
+    .background-container {
+        border: 3px double black;
+        bottom: 0px;
+        height: 700px;
+        left: 0px;
+        margin: auto auto;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 1400px;
+    }
+
+    .power-button {
+        height: 15%;
+        width: 7.5%;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .background-lines {
+        border: 3px double black;
+    }
+
+    .background-line1 {}
+
+    .background-line2 {}
+
+    .background-line3 {}
+
+    .background-line4 {}
+
+    .background-line5 {}
+
+    .background-line6 {}
+
+    /* CONTROL CONTAINER */
     .control-general {
         height: 400px;
         width: 1000px;
-        border: 1.5px solid transparent;
-        margin-top: 50px;
-        margin-left: 50px;
+        margin-top: calc(50% - 200px);
     }
 
-    /* BASE DEL CONTROL */
+    /* CONTROL BASE */
     .control-container {
-
         border: 1.5px solid black;
         border-radius: 50px 50px 90px 90px;
         height: 90%;
@@ -23,7 +58,7 @@
         margin-left: 5%;
     }
 
-    /* DECORACION DEL CONTROL */
+    /* CONTROL DECORATIONS */
     .control-container-lines1 {
 
         border-top: 1.5px solid black;
@@ -34,6 +69,7 @@
         margin-left: 5%;
 
     }
+
 
     .console-container-lines2 {
         height: 63%;
@@ -75,12 +111,47 @@
     .thirdth-element-console-decoration {
         height: 5%;
         width: 40%;
-        margin-left: 49%;
+        margin-left: 48.5%;
         border-right: 2px solid black;
         border-top-right-radius: 6px;
-        margin-top: -1%;
+        margin-top: -0.88%;
     }
 
+    .control-container-lines3 {
+
+        border-BOTTOM: 1.5px solid black;
+        border-radius: 0px 0px 19px 19px;
+        height: 86%;
+        width: 61.2%;
+        margin-top: -34%;
+        margin-left: 19.5%;
+        transform: translateY(-7%);
+
+    }
+
+    /* TOUCJSCREEN*/
+    .outer-square-touchscreen {
+        width: 48%;
+        height: 82%;
+        border-radius: 1%;
+        background-color: transparent;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -36.2%;
+        margin-left: 26%;
+    }
+
+    .inner-square-touchscreen {
+        width: 87%;
+        height: 90%;
+        border: 1px solid black;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* ABXY BUTTON */
     .abxy-container {
@@ -90,7 +161,7 @@
         width: 7%;
         height: 17%;
         transform: rotate(45deg);
-        margin-top: -34%;
+        margin-top: -31%;
         margin-left: 85%;
 
     }
@@ -118,6 +189,7 @@
     .dpa-button {
         height: 33%;
         width: 33%;
+
     }
 
     .dpad-right,
@@ -125,14 +197,21 @@
     .dpad-left,
     .dpad-down,
     .dpad-middle {
-        background-color: transparent;
-        border: 1px solid black;
+        border: 1px solid #000000;
+    }
+
+
+    .dpad-right::before,
+    .dpad-up::before,
+    .dpad-left::before,
+    .dpad-down::before,
+    .dpad-middle::before {
+        border: 1px solid #000000;
     }
 
     .dpad-up {
         height: 100%;
         width: 100%;
-        border-top: transparent;
         position: relative;
     }
 
@@ -145,15 +224,11 @@
         height: 45%;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
-        background-color: transparent;
-        border: 1px solid black;
-        border-bottom: transparent;
     }
 
     .dpad-right {
         height: 100%;
         width: 100%;
-        border-right: transparent;
         position: relative;
     }
 
@@ -164,17 +239,13 @@
         top: -1px;
         width: 45%;
         height: 100%;
-        background-color: transparent;
-        border: 1px solid black;
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
-        border-left: transparent;
     }
 
     .dpad-down {
         height: 100%;
         width: 100%;
-        border-bottom: transparent;
         position: relative;
     }
 
@@ -185,17 +256,13 @@
         top: 50px;
         width: 100%;
         height: 45%;
-        background-color: transparent;
-        border: 1px solid black;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        border-top: transparent;
     }
 
     .dpad-left {
         height: 100%;
         width: 100%;
-        border-left: transparent;
         position: relative;
     }
 
@@ -206,11 +273,9 @@
         top: -1px;
         width: 30px;
         height: 100%;
-        background-color: transparent;
-        border: 1px solid black;
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
-        border-right: transparent;
+
     }
 
     .dpad-empty1 {
@@ -247,6 +312,7 @@
         border-left: transparent;
         transform: rotate(180deg);
     }
+
 
     /* THUMBSTICK BUTTON L3/R3*/
     .outer-circle-l3 {
@@ -336,8 +402,8 @@
         background-color: transparent;
         width: 3%;
         height: 3%;
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: -22%;
+        margin-left: 14%;
 
     }
 
@@ -345,28 +411,30 @@
         border: 1px solid #000000;
         border-radius: 100px;
         background-color: transparent;
-        width: 50px;
-        height: 20px;
-        margin-top: 0%;
-        margin-left: 0%;
+        width: 5%;
+        height: 4%;
+        margin-top: 22%;
+        margin-left: 20%;
     }
 
     .menu-button {
         border: 1px solid #000000;
         border-radius: 100px;
         background-color: transparent;
-        width: 50px;
-        height: 20px;
-        margin-top: 0%;
-        margin-left: 0%;
+        width: 3%;
+        height: 3%;
+        margin-top: -25.15%;
+        margin-left: 82%;
     }
 
     .quick-access-button {
         border: 1px solid #000000;
         border-radius: 100px;
         background-color: transparent;
-        width: 50px;
-        height: 20px;
+        width: 5%;
+        height: 4%;
+        margin-top: 22%;
+        margin-left: 75.5%;
     }
 
     /* SPEAKER RIGHT*/
@@ -374,17 +442,17 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 2fr);
-        width: 100px;
-        height: 50px;
+        width: 6%;
+        height: 6%;
         align-items: end;
-
+        margin-top: 1%;
+        margin-left: 75.5%;
     }
 
     .speaker-button {
         border: 1px solid black;
         height: 33%;
         width: 25%;
-
     }
 
     .speaker1,
@@ -401,7 +469,7 @@
         height: 45%;
         width: 80%;
         border-radius: 100px;
-        transform: translateX(15px);
+        transform: translateX(11px);
     }
 
     .speaker5 {
@@ -427,8 +495,10 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 2fr);
-        width: 100px;
-        height: 50px;
+        width: 6%;
+        height: 6%;
         align-items: end;
+        margin-top: -2.4%;
+        margin-left: 19.2%;
         transform: scaleX(-1);
     }
