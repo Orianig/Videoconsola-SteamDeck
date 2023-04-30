@@ -114,7 +114,7 @@
         border-bottom-left-radius: 10px;
         height: 8px;
         width: 209px;
-        transform: translate(-6px, 27px);
+        transform: translate(-9px, 27px);
     }
 
     .background-line4-1 {
@@ -212,6 +212,10 @@
         height: 100%;
         justify-content: center;
         width: 50%;
+    }
+
+    .control-container-right-top-right {
+        transform: translate(-7px);
     }
 
     .control-container-left-top-right,
@@ -338,6 +342,7 @@
         grid-template-rows: repeat(3, 1fr);
         height: 75px;
         width: 75px;
+        transform: translate(4px, 9px);
     }
 
     .dpad-container>* {
@@ -420,9 +425,9 @@
 
     .dpad-left::before {
         right: 70%;
-        top: -0.3px;
+        top: -1px;
         width: 45%;
-        height: calc(100% + 3px);
+        height: calc(100% + 2px);
         border-bottom-left-radius: 50%;
         border-top-left-radius: 50%;
         border-right: transparent;
@@ -461,118 +466,123 @@
     }
 
     /* VIEW/MENU/STEAM/ QUICK ACCESS BUTTON */
-    .view-button {
+    .view-button,
+    .menu-button {
+        align-items: center;
         border: 1px solid #000000;
         border-radius: 100px;
         background-color: transparent;
-        width: 22%;
-        height: 44%;
+        display: flex;
+        height: 48%;
+        justify-content: center;
+        width: 30%;
+        transform: translateY(3px);
+    }
+
+    .menu-button {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .view-button-icon1 {
+        height: 35%;
+        width: 20%;
+        border: 1px solid black;
+        transform: translate(1px, -1px);
+    }
+
+    .view-button-icon2 {
+        height: 35%;
+        width: 25%;
+        border: 1px solid black;
+        transform: translate(-3px, 1px);
     }
 
     .steam-button,
     .quick-access-button {
+        align-items: center;
         border: 1px solid #000000;
         border-radius: 100px;
         background-color: transparent;
-        width: 43%;
+        display: flex;
         height: 50%;
+        justify-content: center;
+        width: 43%;
     }
 
-    .menu-button {
-        border: 1px solid #000000;
-        border-radius: 100px;
-        background-color: transparent;
-        width: 22%;
-        height: 44%;
+    .steam-buttom-text {
+        font-size: 12px;
+    }
+
+    .quick-access-button {
+        gap: 5%;
+    }
+
+    .quick-access-button-icon1,
+    .quick-access-button-icon2,
+    .quick-access-button-icon3 {
+        border: 1px solid black;
+        border-radius: 100%;
+        height: 6px;
+        width: 6px;
+    }
+
+    .menu-button-icon1,
+    .menu-button-icon2,
+    .menu-button-icon3 {
+        border: 0.2px solid black;
+        border-radius: 30% 30% 30% 30%;
+        height: 1px;
+        width: 12px;
     }
 
     /* THUMBSTICK BUTTON L3/R3*/
-    .outer-circle-l3 {
-        width: 90%;
-        height: 80%;
-        border-radius: 50%;
-        background-color: transparent;
-        border: 1px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .inner-circle-l1 {
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-        border: 1px solid black;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .inner-circle-l2 {
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-        border: 1px solid black;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .inner-circle-l3 {
-        width: 80%;
-        height: 80%;
-        border-radius: 50%;
-        border: 1px solid black;
-        background-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
+    .outer-circle-l3,
     .outer-circle-r3 {
-        width: 90%;
-        height: 80%;
+        align-items: center;
         border-radius: 50%;
         background-color: transparent;
         border: 1px solid black;
         display: flex;
+        height: 78%;
         justify-content: center;
-        align-items: center;
+        width: 84%;
     }
 
+    .inner-circle-l1,
     .inner-circle-r1 {
-        width: 80%;
-        height: 80%;
+        align-items: center;
         border-radius: 50%;
         border: 1px solid black;
         background-color: transparent;
         display: flex;
+        height: 80%;
         justify-content: center;
-        align-items: center;
+        width: 80%;
     }
 
+    .inner-circle-l2,
     .inner-circle-r2 {
-        width: 80%;
-        height: 80%;
+        align-items: center;
         border-radius: 50%;
         border: 1px solid black;
         background-color: transparent;
         display: flex;
+        height: 80%;
         justify-content: center;
-        align-items: center;
+        width: 80%;
     }
 
+    .inner-circle-l3,
     .inner-circle-r3 {
-        width: 80%;
-        height: 80%;
+        align-items: center;
         border-radius: 50%;
         border: 1px solid black;
         background-color: transparent;
         display: flex;
+        height: 90%;
         justify-content: center;
-        align-items: center;
+        width: 90%;
     }
 
     /* ABXY BUTTON */
@@ -589,7 +599,9 @@
         background-color: transparent;
         border-radius: 50%;
         border: 1px solid black;
-        padding-top: 10px;
+        line-height: 29PX;
+        text-align: center;
+        transform: rotate(-45deg);
     }
 
     /* CONTROL DECORATIONS */
@@ -649,11 +661,10 @@
         content: '';
         display: block;
         height: 48px;
-        left: -1%;
+        left: -4%;
         position: absolute;
-        top: 78%;
+        top: 87%;
         width: 11px;
-
     }
 
     .thirdth-element-container-decoration-left {
@@ -662,13 +673,11 @@
         height: 54%;
     }
 
-
     .thirdth-element-console-decoration-left {
-        height: 155px;
+        height: 142px;
         border-left: 1px solid black;
-        transform: rotate(-33deg) translate(95%, 11%);
-        width: 40px;
-
+        transform: rotate(-33deg) translate(65%, 17%);
+        width: 39px;
     }
 
     .fourth-element-container-decoration-left {
@@ -684,7 +693,7 @@
         border-right: 1px solid black;
         border-top-right-radius: 30%;
         height: 10px;
-        left: 91%;
+        left: 84%;
         position: absolute;
         top: 13%;
         width: 13px;
@@ -753,7 +762,6 @@
         position: absolute;
         top: 78%;
         width: 11px;
-
     }
 
     .thirdth-element-container-decoration-right {
@@ -766,9 +774,8 @@
     .thirdth-element-console-decoration-right {
         height: 155px;
         border-left: 1px solid black;
-        transform: rotate(33deg) translate(99%, -4%);
+        transform: rotate(33deg) translate(91%, -5%);
         width: 40px;
-
     }
 
     .fourth-element-container-decoration-right {
@@ -835,7 +842,9 @@
 
     .speaker8,
     .speaker9 {
-        border: transparent;
+        border: none;
+        height: 0%;
+        width: 0%;
     }
 
     .speaker7 {
@@ -897,12 +906,11 @@
         border: transparent;
         border-top: 1.5px solid black;
         border-radius: 50px 50px 90px 90px;
-        height: 55%;
+        height: 35%;
         left: 0%;
         position: absolute;
-        top: 1.5%;
+        top: 2.5%;
         width: 100%;
-        z-index: 1;
     }
 
     .decoration-inf {
@@ -914,5 +922,4 @@
         position: absolute;
         top: 91.7%;
         width: 70%;
-        z-index: 2;
     }
