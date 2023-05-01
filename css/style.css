@@ -54,7 +54,7 @@
         border-bottom-left-radius: 10px;
         height: 8px;
         width: 133px;
-        transform: translate(73px, -156px);
+        transform: translate(73px, -153px);
     }
 
     /* BACKGROUND CONTAINER MIDDLE */
@@ -99,29 +99,29 @@
     .background-line2 {
         border: 1px solid black;
         height: 103px;
-        transform: translate(145px, -29px);
+        transform: translate(143px, -29px);
         width: 8px;
     }
 
     .background-line3 {
         font-size: 24px;
         text-align: center;
-        transform: translate(378px, 25px);
+        transform: translate(450px, 25px);
     }
 
     .background-line4 {
         border: 1px double black;
         border-bottom-left-radius: 10px;
         height: 8px;
-        width: 209px;
+        width: 275px;
         transform: translate(-9px, 27px);
     }
 
     .background-line4-1 {
         border: 1px double black;
         height: 8px;
-        width: 606px;
-        transform: translate(194px, 27px);
+        width: 536px;
+        transform: translate(204px, 27px);
     }
 
 
@@ -140,15 +140,17 @@
         display: flex;
         height: 55px;
         justify-content: center;
+        position: relative;
         transform: translate(140px, 14px);
         width: 55px;
+        z-index: 1;
     }
 
     .inner-power-button {
         align-items: center;
+        background: #b6f814 url(../imagenes/power-button-svg.svg) no-repeat center center / 60%;
         border-radius: 50%;
         border: 1px solid black;
-        background-color: transparent;
         display: flex;
         height: 60%;
         justify-content: center;
@@ -158,7 +160,7 @@
     .background-line1 {
         border: 1px double black;
         height: 213px;
-        transform: translate(165px, -12px);
+        transform: translate(163px, -12px);
         width: 8px;
     }
 
@@ -167,7 +169,7 @@
         border-bottom-right-radius: 10px;
         height: 8px;
         transform: translate(1px, -12px);
-        width: 172px;
+        width: 170px;
     }
 
     /* CONTROL CONTAINER DISTRIBUTION */
@@ -381,7 +383,7 @@
     .dpad-up::before {
         top: -36%;
         left: -1.4px;
-        width: calc(100% + 2.5px);
+        width: calc(100% + 2px);
         height: 46%;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
@@ -661,7 +663,7 @@
         content: '';
         display: block;
         height: 48px;
-        left: -4%;
+        left: -1%;
         position: absolute;
         top: 87%;
         width: 11px;
@@ -676,7 +678,7 @@
     .thirdth-element-console-decoration-left {
         height: 142px;
         border-left: 1px solid black;
-        transform: rotate(-33deg) translate(65%, 17%);
+        transform: rotate(-33deg) translate(74%, 17%);
         width: 39px;
     }
 
@@ -693,7 +695,7 @@
         border-right: 1px solid black;
         border-top-right-radius: 30%;
         height: 10px;
-        left: 84%;
+        left: 85%;
         position: absolute;
         top: 13%;
         width: 13px;
@@ -754,13 +756,13 @@
     .second-element-console-decoration-right::after {
         border: transparent;
         border-right: 1px solid black;
-        border-radius: 0 0 83% 0;
+        border-radius: 0 0 85% 0;
         content: '';
         display: block;
-        height: 48px;
+        height: 32px;
         left: 87%;
         position: absolute;
-        top: 78%;
+        top: 88%;
         width: 11px;
     }
 
@@ -774,7 +776,7 @@
     .thirdth-element-console-decoration-right {
         height: 155px;
         border-left: 1px solid black;
-        transform: rotate(33deg) translate(91%, -5%);
+        transform: rotate(33deg) translate(96%, -4%);
         width: 40px;
     }
 

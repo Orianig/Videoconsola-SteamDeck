@@ -1,0 +1,253 @@
+:root {
+    --color-main: #66ffff;
+    --border-main: 1px solid #66ffff;
+}
+
+
+/* BACKGROUND CONTAINER */
+.background-container.empty-theme {
+    background: rgb(75, 75, 75);
+    background: radial-gradient(circle, rgba(75, 75, 75, 1) 0%, rgba(0, 0, 0, 1) 63%);
+}
+
+
+.empty-theme .background-line6 {
+    border: var(--border-main);
+}
+
+.empty-theme .background-line7 {
+    border-top: 4px double var(--color-main);
+}
+
+.empty-theme .background-line8 {
+    border: var(--border-main);
+}
+
+.empty-theme .background-line5 {
+    border-right: 4px double var(--color-main);
+}
+
+.empty-theme .background-line2 {
+    border: var(--border-main);
+}
+
+.empty-theme .background-line3 {
+    color: #265151;
+}
+
+.empty-theme .background-line4 {
+    border: var(--border-main);
+}
+
+.empty-theme .background-line4-1 {
+    border: var(--border-main);
+}
+
+.empty-theme .outer-power-button {
+    background-color: #b6f814;
+}
+
+.empty-theme .inner-power-button {
+    border: transparent;
+}
+
+.empty-theme .background-line1 {
+    border: var(--border-main);
+}
+
+.empty-theme .background-line1-1 {
+    border: var(--border-main);
+}
+
+/* CONTROL CONTAINER DISTRIBUTION */
+.empty-theme .control-container {
+    border: var(--border-main);
+}
+
+/* CONTROL ITEMS */
+
+.empty-theme .trackpad-button-left,
+.empty-theme .trackpad-button-right {
+    border: var(--border-main);
+}
+
+/* D-PAD BUTTON */
+.empty-theme .dpad-right::before,
+.empty-theme .dpad-up::before,
+.empty-theme .dpad-left::before,
+.empty-theme .dpad-down::before {
+    border: var(--border-main);
+}
+
+.empty-theme .dpad-up::before {
+    border-bottom: transparent;
+}
+
+.empty-theme .dpad-right {
+    height: 100%;
+    width: 100%;
+}
+
+.empty-theme .dpad-right::before {
+    border-left: transparent;
+}
+
+.empty-theme .dpad-down {
+    height: 100%;
+    width: 100%;
+}
+
+.empty-theme .dpad-down::before {
+    border-top: transparent;
+}
+
+.empty-theme .dpad-left {
+    height: 100%;
+    width: 100%;
+}
+
+.empty-theme .dpad-left::before {
+    border-right: transparent;
+
+}
+
+.empty-theme .dpad-empty1,
+.empty-theme .dpad-empty2,
+.empty-theme .dpad-empty3,
+.empty-theme .dpad-empty4 {
+    border: var(--border-main);
+    border-left: transparent;
+    border-top: transparent;
+}
+
+/* VIEW/MENU/STEAM/ QUICK ACCESS BUTTON */
+.empty-theme .view-button,
+.empty-theme .menu-button {
+    border: var(--border-main);
+}
+
+.empty-theme .view-button-icon1,
+.empty-theme .view-button-icon2 {
+    border: transparent;
+}
+
+.empty-theme .steam-button,
+.empty-theme .quick-access-button {
+    border: var(--border-main);
+}
+
+.empty-theme .steam-buttom-text {
+    color: transparent;
+}
+
+.empty-theme .quick-access-button-icon1,
+.empty-theme .quick-access-button-icon2,
+.empty-theme .quick-access-button-icon3 {
+    border: transparent;
+}
+
+.empty-theme .menu-button-icon1,
+.empty-theme .menu-button-icon2,
+.empty-theme .menu-button-icon3 {
+    border: transparent;
+}
+
+/* THUMBSTICK BUTTON L3/R3*/
+.empty-theme .outer-circle-l3,
+.empty-theme .outer-circle-r3 {
+    border: var(--border-main);
+}
+
+.empty-theme .inner-circle-l1,
+.empty-theme .inner-circle-r1 {
+    border: var(--border-main);
+}
+
+.empty-theme .inner-circle-l2,
+.empty-theme .inner-circle-r2 {
+    border: var(--border-main);
+}
+
+.empty-theme .inner-circle-l3,
+.empty-theme .inner-circle-r3 {
+    border: var(--border-main);
+}
+
+/* ABXY BUTTON */
+.empty-theme .abxy-button {
+    border: var(--border-main);
+}
+
+/* CONTROL DECORATIONS */
+/*LEFT*/
+.empty-theme .first-element-console-decoration-left {
+    border-right: var(--border-main);
+    border-top: var(--border-main);
+}
+
+.empty-theme .second-element-console-decoration-left::after {
+    border-left: var(--border-main);
+}
+
+.empty-theme .thirdth-element-console-decoration-left {
+    border-left: var(--border-main);
+}
+
+.empty-theme .fourth-element-console-decoration-left {
+    border-right: var(--border-main);
+}
+
+/*RIGHT*/
+
+.empty-theme .first-element-console-decoration-right {
+    border-left: var(--border-main);
+    border-top: var(--border-main);
+}
+
+.empty-theme .second-element-console-decoration-right::after {
+    border-right: var(--border-main);
+}
+
+.empty-theme .thirdth-element-console-decoration-right {
+    border-left: var(--border-main);
+}
+
+.empty-theme .fourth-element-console-decoration-right {
+    border-left: var(--border-main);
+}
+
+.empty-theme .speaker-button {
+    border: var(--border-main);
+}
+
+.empty-theme .speaker8,
+.empty-theme .speaker9 {
+    border: none;
+}
+
+/* TOUCHSCREEN*/
+.empty-theme .inner-square-touchscreen {
+    background: url(../imagenes/Steam_icon_logo.svg.png) no-repeat center center / 20%;
+    filter: blur(20px);
+}
+
+.empty-theme .inner-square-touchscreen,
+.empty-theme .outer-square-touchscreen {
+    border: var(--border-main);
+}
+
+/* MICROPHONES*/
+.empty-theme .microphone-left,
+.empty-theme .microphone-right {
+    border: var(--border-main);
+}
+
+.empty-theme .decoration-sup {
+    border: transparent;
+    border-top: var(--border-main);
+}
+
+.empty-theme .decoration-inf {
+    border: transparent;
+    border-bottom: var(--border-main);
+}
