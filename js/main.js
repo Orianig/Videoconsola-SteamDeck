@@ -8,11 +8,11 @@ function onPower() {
     setTimeout(function () {
         document.querySelector('.background-container ').classList.remove('empty-theme');
         document.querySelector('.background-container ').classList.add('dark-theme');
-    }, 13400);
+    }, 13900);
     setTimeout(function () {
         const video2 = document.querySelector('.video2');
         video1.style.display = 'none'
         video2.style.display = 'block'
         video2.play();
-    }, 13500);
+    }, 13800);
 }

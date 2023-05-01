@@ -228,8 +228,6 @@
 }
 
 /* TOUCHSCREEN*/
-.empty-theme .inner-square-touchscreen {}
-
 .empty-theme .inner-square-touchscreen,
 .empty-theme .outer-square-touchscreen {
     border: var(--border-main);
