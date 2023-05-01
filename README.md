@@ -19,7 +19,7 @@ Para utilizar la SteamDeck Videoconsola, simplemente abre el archivo index.html 
 
 En la pantalla principal, selecciona el boton de encendido y se reproduciran los efectos
 
-![Proceso creativo/ uso/ resultado](https://github.com/Orianig/Videoconsola-SteamDeck/blob/3577e417579ca58e8fbc75a6d62e2f1ce2812e2f/imagenes/procesp-creativo.JPG)
+:---: ![Proceso creativo/ uso/ resultado](https://github.com/Orianig/Videoconsola-SteamDeck/blob/3577e417579ca58e8fbc75a6d62e2f1ce2812e2f/imagenes/procesp-creativo.JPG)
 
 ## PROCESO DE ELABORACIÓN
 Para la creación de este proyecto se creo primero la estructura en un archivo html, seguido en un archivo CSS se generaron los estilos de cada uno de los elementos que componen el proyecto, en un tercer proceso se dividio en dos partes los temas utilizados:
