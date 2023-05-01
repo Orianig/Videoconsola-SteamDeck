@@ -19,7 +19,7 @@ Para utilizar la Steam Deck Videoconsola, simplemente abre el archivo index.html
 
 En la pantalla principal, selecciona el boton de encendido y se reproduciran los efectos
 
-![Proceso creativo/ uso/ resultado] (https://github.com/Orianig/Videoconsola-SteamDeck/blob/3577e417579ca58e8fbc75a6d62e2f1ce2812e2f/imagenes/procesp-creativo.JPG){width='100px'}
+![Proceso creativo/ uso/ resultado](https://github.com/Orianig/Videoconsola-SteamDeck/blob/3577e417579ca58e8fbc75a6d62e2f1ce2812e2f/imagenes/procesp-creativo.JPG){width='100px'}
 
 ## AUTOR
 Este proyecto fue creado por Oriana Infante como parte de su aprendizaje en desarrollo web en el bootcamp de GeeksHub.
