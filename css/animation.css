@@ -1,0 +1,114 @@
+:root {
+    --bg-pipe: #b6f814;
+}
+
+/* .pipe1  */
+.theme-animation .background-line1,
+.theme-animation .background-line2 {
+    background-image: linear-gradient(to bottom, var(--bg-pipe) 0%, var(--bg-pipe) 50%, transparent 50%, transparent 100%);
+    background-size: 100% 200%;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    animation: fillVerticalPipeTopBottom 2s forwards;
+}
+
+/* .pipe2 */
+.theme-animation .background-line1-1,
+.theme-animation .background-line8 {
+    background-image: linear-gradient(to left, var(--bg-pipe) 0%, var(--bg-pipe) 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: fillHorizontalPipeRightLeft 2s forwards;
+    animation-delay: 1.75s;
+}
+
+/* .pipe3 */
+.theme-animation .background-line8 {
+    animation-delay: 4s;
+}
+
+.theme-animation .background-line2 {
+    animation-delay: 4s;
+}
+
+/* .pipe4 */
+.theme-animation .background-line4,
+.theme-animation .background-line4-1 {
+    background-image: linear-gradient(to right, var(--bg-pipe) 0%, var(--bg-pipe) 50%, transparent 50%, transparent 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    animation: fillHorizontalPipeLeftRight 2s forwards;
+    animation-delay: 5.75s;
+}
+
+.theme-animation .background-line4-1 {
+    animation: fillHorizontalPipeLeftRight 6s forwards;
+    animation-delay: 7s;
+}
+
+/* .pipe6 */
+.theme-animation .background-line6 {
+    background-image: linear-gradient(to top, var(--bg-pipe) 0%, var(--bg-pipe) 50%, transparent 50%, transparent 100%);
+    background-size: 100% 200%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    animation: fillVerticalPipeBottomTop 2s forwards;
+    animation-delay: 5.75s;
+}
+
+.theme-animation .control-container {
+    animation: fadeIn 2s forwards;
+}
+
+
+@keyframes fillVerticalPipeTopBottom {
+    from {
+        background-position: 0 100%;
+    }
+
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes fillHorizontalPipeRightLeft {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+@keyframes fillHorizontalPipeLeftRight {
+    from {
+        background-position: 100% 0;
+    }
+
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes fillVerticalPipeBottomTop {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

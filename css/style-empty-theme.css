@@ -1,6 +1,6 @@
 :root {
-    --color-main: #66ffff;
-    --border-main: 1px solid #66ffff;
+    --color-main: #b6f814;
+    --border-main: 1px solid #b6f814;
 }
 
 
@@ -32,7 +32,7 @@
 }
 
 .empty-theme .background-line3 {
-    color: #265151;
+    color: #5C780A;
 }
 
 .empty-theme .background-line4 {
@@ -44,7 +44,9 @@
 }
 
 .empty-theme .outer-power-button {
-    background-color: #b6f814;
+    animation: pulse 1s infinite;
+    background-color: var(--color-main);
+    transition: box-shadow 1s ease-in-out;
 }
 
 .empty-theme .inner-power-button {
@@ -226,10 +228,7 @@
 }
 
 /* TOUCHSCREEN*/
-.empty-theme .inner-square-touchscreen {
-    background: url(../imagenes/Steam_icon_logo.svg.png) no-repeat center center / 20%;
-    filter: blur(20px);
-}
+.empty-theme .inner-square-touchscreen {}
 
 .empty-theme .inner-square-touchscreen,
 .empty-theme .outer-square-touchscreen {
@@ -250,4 +249,19 @@
 .empty-theme .decoration-inf {
     border: transparent;
     border-bottom: var(--border-main);
+}
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: -3px 0px 30px 6px var(--color-main);
+    }
+
+    50% {
+        box-shadow: -3px 0px 50px 10px var(--color-main);
+    }
+
+    100% {
+        box-shadow: -3px 0px 30px 6px var(--color-main);
+    }
 }

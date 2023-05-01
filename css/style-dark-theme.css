@@ -16,6 +16,8 @@ body {
     background-color: #b6f814;
     border: 2px solid #b6f814;
     box-shadow: -3px 0px 30px 6px rgba(182, 248, 20, 0.7);
+    transform: translate(73px, 2px);
+
 }
 
 .dark-theme .background-line7 {
@@ -47,6 +49,7 @@ body {
     background-color: #b6f814;
     border: 2px solid #b6f814;
     box-shadow: -3px 0px 30px 6px rgba(182, 248, 20, 0.7);
+    transform: translate(-11px, 27px);
 }
 
 .dark-theme .background-line4-1 {
@@ -56,14 +59,15 @@ body {
 }
 
 .dark-theme .outer-power-button {
-    background-color: rgb(144, 144, 144);
+    background-color: #b6f814;
     /* border: 1px solid rgb(144, 144, 144); */
     border: transparent;
-    box-shadow: 4px 0px 0px 0px rgb(15 15 14 / 86%), inset -11px -1px 30px 10px rgb(79 82 73 / 101%);
 }
 
 .dark-theme .inner-power-button {
-    box-shadow: 0px 16px 26px 0px rgb(0 0 0), inset -12px 6px 11px -6px rgb(215 215 211);
+    border: transparent;
+    box-shadow: -3px 0px 30px 10spx rgba(182, 248, 20, 0.7);
+    /* box-shadow: 0px 16px 26px 0px rgb(0 0 0), inset -12px 6px 11px -6px rgb(215 215 211);*/
 }
 
 .dark-theme .background-line1 {
