@@ -3,7 +3,7 @@
 
 Este proyecto es una recreación de la videoconsola Steam Deck utilizando HTML, CSS y JavaScript. La intención del proyecto es practicar y demostrar las habilidades en el desarrollo web.
 
-## TECNOLOSÍAS UTILIZADAS
+## TECNOLOGÍAS UTILIZADAS
 - HTML5
 - CSS3
 - JavaScript
@@ -27,6 +27,11 @@ Para la creación de este proyecto se creo primero la estructura en un archivo h
 - Empty-Theme
 Estos contienen las caracteristicas peculares que le corresponden; se realizo la division entre estos archivos con la finalidad de poder realizar un cambio de los temas una vez finalizadas las animaciones correspondientes.
 Posteriormente se creó el archivo Js y otro para las animaciones.
+
+## RESULTADO FINAL
+![Tema 1: Empty-Theme](https://github.com/Orianig/Videoconsola-SteamDeck/blob/2aadf79b30993593933dd846fd219da6813d55a6/imagenes/final-result1.JPG)
+![Tema 2: Dark-Theme](https://github.com/Orianig/Videoconsola-SteamDeck/blob/2aadf79b30993593933dd846fd219da6813d55a6/imagenes/final-result2.JPG)
+
 
 ## AUTOR
 Este proyecto fue creado por Oriana Infante como parte de su aprendizaje en desarrollo web en el bootcamp de GeeksHub.
